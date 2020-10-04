@@ -6,6 +6,13 @@ spring:
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/spring-security?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://localhost:3306/spring_security?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
     password: root
+
+logging:
+  level:
+    root: warnning
+    com:
+      gf: DEBUG
+  file: spring-security-test.log
