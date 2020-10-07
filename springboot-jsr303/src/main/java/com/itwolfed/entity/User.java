@@ -1,7 +1,7 @@
 package com.itwolfed.entity;
 
-import com.itwolfed.valid.Groups;
-import com.itwolfed.valid.ListValue;
+import com.ruize.ddd.core.validation.Groups;
+import com.ruize.ddd.core.validation.ListValue;
 import lombok.Data;
 
 import javax.validation.constraints.Email;
