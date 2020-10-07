@@ -1,0 +1,1 @@
+curl -X POST -H "Authorization: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjAyMzMyMzA2fQ.3aBdo3MxQ8I_2UpHR6X1cY7ghjqDDFSpTTmTE4LsKljcKJWgye6_zRnX3AxVJr8rx9e7dTjWuaL5j5Yfn1L0CA" -d "name=zhangsan" http://127.0.0.1:8080/admin/hi
