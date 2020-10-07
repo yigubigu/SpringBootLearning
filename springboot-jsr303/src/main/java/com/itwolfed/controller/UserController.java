@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @PostMapping
-    public Result save(@RequestBody User user)  {
+    public Result save(@Validated(Groups.Add.class) @RequestBody User user)  {
         return Result.ok();
     }
 

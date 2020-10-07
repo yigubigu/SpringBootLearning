@@ -1,6 +1,7 @@
 {
+  "id": 100,
   "username": "abc",
   "password": "abc",
   "email": "test@t.com",
-  "gender": 1
+  "gender": 3
 }
